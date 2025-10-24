@@ -1,0 +1,20 @@
+#parent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.single-comment {
+  width: 50%;
+  height: auto;
+
+  padding: 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: green;
+}
+.single-comment:hover {
+  background-color: aqua;
+  
+}
